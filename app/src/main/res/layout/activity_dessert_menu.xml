@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.CISUserActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="75dp"
+        android:text="Dessert Menu"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/backtomenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="cart"
+        android:text="Back To Cart" />
+
+    <ImageView
+        android:id="@+id/shelf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/dessertshelf" />
+
+    <ImageView
+        android:id="@+id/cake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="476dp"
+        android:onClick="placeOrderCake"
+        app:srcCompat="@drawable/cake" />
+
+    <ImageView
+        android:id="@+id/donut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="-44dp"
+        android:layout_marginBottom="469dp"
+        android:onClick="placeOrderDonut"
+        android:visibility="visible"
+        app:srcCompat="@drawable/donut" />
+
+    <ImageView
+        android:id="@+id/chocolateBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="241dp"
+        android:onClick="placeOrderChocolate"
+        app:srcCompat="@drawable/chocolatebar" />
+
+    <ImageView
+        android:id="@+id/cookie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="-62dp"
+        android:layout_marginBottom="289dp"
+        android:onClick="placeOrderCookie"
+        app:srcCompat="@drawable/cookie" />
+
+    <ImageView
+        android:id="@+id/Brownie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="placeOrderBrownie"
+        app:srcCompat="@drawable/brownie" />
+
+
+</RelativeLayout>

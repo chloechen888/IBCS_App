@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.CISUserActivity">
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-33dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-60dp"
+        android:layout_marginBottom="-82dp"
+        app:srcCompat="@drawable/foodbackground2" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="cursive"
+        android:text="Menu"
+        android:textAllCaps="false"
+        android:textSize="60sp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="35dp"
+        android:onClick="goToMainMenu"
+        android:text="⬅ Back to menu" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/getMenuRecyclerView"
+        android:layout_width="376dp"
+        android:layout_height="509dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="95dp" />
+
+</RelativeLayout>
+
+

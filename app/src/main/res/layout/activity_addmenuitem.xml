@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-37dp"
+        android:layout_marginEnd="-75dp"
+        android:layout_marginBottom="-33dp"
+        app:srcCompat="@drawable/foodbackground3" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="cursive"
+        android:text="Add Menu item"
+        android:textColor="#DCD4D4"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/itemNameInput"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name"
+        android:textColor="#D6D6D6"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="273dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Description"
+        android:textColor="#D6D6D6"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/itemIdInput"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="362dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Item Id"
+        android:textColor="#D6D6D6"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/priceInput"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="444dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Price"
+        android:textColor="#D6D6D6"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/typeInput"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Type"
+        android:textColor="#D6D6D6"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/addMenuItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp"
+        android:onClick="addMenuItem"
+        android:text="Add Menu Item"
+        android:textColor="#171717"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="29dp"
+        android:onClick="goToAdminMenu"
+        android:text="⬅ Back To Menu" />
+
+</RelativeLayout>

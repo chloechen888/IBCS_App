@@ -1,7 +1,7 @@
 package edu.cis.ibcs_app.Utils;
 
 public class CISConstants {
-    public static final String HOST = "NGROK_URL_HERE";
+    public static final String HOST = " https://65b2-218-188-216-194.ap.ngrok.io";
 
     //return strings
     public static final String DUP_ORDER_ERR = "Error: meal/drink already ordered by this user.";
@@ -29,6 +29,7 @@ public class CISConstants {
     public static final String PRICE_PARAM = "price";
     public static final String USER_ID_PARAM = "userID";
     public static final String DESC_PARAM = "description";
+    public static final String TOP_UP_AMOUNT = "topUpAmount";
 
     //Commands
     //create user
@@ -49,4 +50,8 @@ public class CISConstants {
     public static final String DELETE_MENU_ITEM = "deleteMenuItem";
     public static final String GET_MENU = "getMenu";
     public static final String GET_USER = "getUser";
+    public static final String GET_ALL_ITEMS = "getAllItems";
+    public static final String TOP_UP = "topUp";
+    public static final String GET_MONEY = "getMoney";
+
 }
